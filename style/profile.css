@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-inline: 2rem;
+    font-size: 15pt;
+    height: 50px;
+    color: white;
+    background-color: rgb(10, 21, 58);
+}
+
+
+.navbar-right a{
+    padding-right: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-right a:nth-child(2){
+    text-decoration-line: underline;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-image: linear-gradient(to bottom right,rgb(6, 6, 92), rgb(0, 106, 141));
+
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+.profile {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.6);
+    width: 900px;
+    height: 650px;
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+.profile-container, .profile-container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+label {
+    color: black;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    text-indent: 5px;
+    margin-top: 0.3em;
+    border: none;
+    opacity: 80%;
+}
+
+.profile-middle {
+    padding-inline: 3em;
+}
+
+.profile-2-items {
+    padding-top: 0.7em;
+    padding-right: 5em;
+}
+
+.profile-items {
+    padding-top: 0.7em;
+    padding-right: 5em;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+}
